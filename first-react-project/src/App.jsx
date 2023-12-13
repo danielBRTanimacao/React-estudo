@@ -1,9 +1,8 @@
 
 function Home() {
-
   return (
     <div>
-      <h1>Lista de compras</h1>
+      <h1>Lista de tarefas</h1>
     </div>
   )
 }
