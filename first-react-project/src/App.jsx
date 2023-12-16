@@ -16,21 +16,21 @@ function Home() {
         // text_input.innerHTML = products;
     }
     return (
-        <div class="container pt-5 pb-5 mt-5 bg-secondary">
-            <h1 class="display-4 text-light">Lista de compras</h1>
-            <div class="input-group w-50 pt-2">
+        <div className="container pt-5 pb-5 mt-5 bg-secondary">
+            <h1 className="display-4 text-light">Lista de compras</h1>
+            <div className="input-group w-50 pt-2">
                 <input
                     class="form-control"
                     type="text"
                     placeholder="Produto..."
                     ref={input_text}
                 />
-                <button class="btn btn-primary" onClick={additingItens}>
+                <button className="btn btn-primary" onClick={additingItens}>
                     Adicionar
                 </button>
             </div>
             {products.map((product) => (
-                <div class="text-light bg-primary" key={product.id}>
+                <div className="text-light bg-primary" key={product.id}>
                     {product.name}
                 </div>
             ))}
