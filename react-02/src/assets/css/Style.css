@@ -1,0 +1,13 @@
+h1 {
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    text-decoration: underline;
+    color: rgb(75, 75, 232);
+    text-align: center;
+}
+
+.cor-text {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: rgb(230, 71, 71);
+    text-align: center;
+}
