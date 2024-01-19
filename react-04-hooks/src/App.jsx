@@ -4,7 +4,10 @@ import React from "react";
 // import HookState02 from "./components/UseState02";
 // import HookState03 from "./components/UseState03";
 // import HookState04 from "./components/UseState04";
-import HookState05 from "./components/UseState05";
+// import HookState05 from "./components/UseState05";
+import HookState06 from "./components/UseState06";
+
+import "./assets/css/Index.css";
 
 export default () => {
     return (
@@ -13,7 +16,8 @@ export default () => {
             {/* <HookState01 /> */}
             {/* <HookState03 /> */}
             {/* <HookState04 /> */}
-            <HookState05 />
+            {/* <HookState05 /> */}
+            <HookState06 />
         </>
     );
 };
