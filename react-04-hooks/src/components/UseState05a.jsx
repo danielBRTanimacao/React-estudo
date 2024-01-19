@@ -1,17 +1,7 @@
-import { useState } from "react";
-
-export default () => {
-    const [value, setValue] = useState(0);
-
-    function update() {
-        setValue(5);
-    }
-
+export default ({ func }) => {
     return (
         <>
-            <h1>Value</h1>
-            <h3>{value}</h3>
-            <button onClick={update}>Atualizar</button>
+            <button onClick={func}>Atualizar</button>
         </>
     );
 };
