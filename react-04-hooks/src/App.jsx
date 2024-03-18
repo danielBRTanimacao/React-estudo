@@ -8,7 +8,8 @@ import React from "react";
 // import HookState06 from "./components/UseState06";
 // import HookState07 from "./components/UseState07";
 // import HookState08 from "./components/UseState08";
-import HookState09 from "./components/UseState09";
+// import HookState09 from "./components/UseState09";
+import HookState10 from "./components/UseState10";
 
 import "./assets/css/Index.css";
 
@@ -22,7 +23,8 @@ export default () => {
             {/* <HookState05 /> */}
             {/* <HookState06 /> */}
             {/* <HookState08 /> */}
-            <HookState09 />
+            {/* <HookState09 /> */}
+            <HookState10 />
         </>
     );
 };
