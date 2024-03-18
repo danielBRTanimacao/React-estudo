@@ -6,7 +6,8 @@ import React from "react";
 // import HookState04 from "./components/UseState04";
 // import HookState05 from "./components/UseState05";
 // import HookState06 from "./components/UseState06";
-import HookState07 from "./components/UseState07";
+// import HookState07 from "./components/UseState07";
+import HookState08 from "./components/UseState08";
 
 import "./assets/css/Index.css";
 
@@ -19,7 +20,7 @@ export default () => {
             {/* <HookState04 /> */}
             {/* <HookState05 /> */}
             {/* <HookState06 /> */}
-            <HookState07 />
+            <HookState08 />
         </>
     );
 };
