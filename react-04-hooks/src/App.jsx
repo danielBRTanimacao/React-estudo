@@ -16,7 +16,8 @@ import React from "react";
 // import HookState14 from "./components/UseState14";
 // import HookState15 from "./components/UseState15";
 // import HookState16 from "./components/UseRef16";
-import HookState17 from "./components/UseEffect17";
+// import HookState17 from "./components/UseEffect17";
+import HookState18 from "./components/UseEffect18";
 
 import "./assets/css/Index.css";
 
@@ -37,7 +38,8 @@ export default () => {
             {/* <HookState14 /> */}
             {/* <HookState15 /> */}
             {/* <HookState16 /> */}
-            <HookState17 />
+            {/* <HookState17 /> */}
+            <HookState18 />
         </>
     );
 };
